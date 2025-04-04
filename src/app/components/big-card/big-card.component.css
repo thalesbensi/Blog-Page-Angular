@@ -1,0 +1,32 @@
+#container__big-card{
+    width: 50%;
+    width: 830px;
+    display:flex;
+    flex-direction: column;
+    padding: 3.125rem 3.2rem 2rem 4rem ;
+    margin-left: 2rem;
+}
+
+#image-section {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #222222;
+}
+
+#date-section{
+    margin-top: .5rem;
+    margin-bottom: .2rem;
+    color: #525252;
+}
+
+#big-card-title{
+    padding: 0px 1rem 0px 0px;
+    line-height: 2.3rem;
+    margin-bottom: 1rem;
+}
+
+#description-section{
+    padding: 0px 5rem 0px 0px;
+    color: grey;
+}
