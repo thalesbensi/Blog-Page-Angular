@@ -16,6 +16,7 @@
 
 #navigation-links img {
     width: 3rem;
+    border-radius: 50px;
 }
 
 #navigation-links ul{

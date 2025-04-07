@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-side-section',
@@ -11,12 +11,8 @@ export class SideSectionComponent {
   date: Date = new Date()
   formattedDate: string = this.date.toDateString()
 
-  title:string = this.getCardTitle()
-  
-  getCardTitle(): string{
-    return "Novas tendências de linguagens para desenvolvimento Back-End"
-
-    
-  }
-
+  @Input()
+  photoCover:string =" ";
+  @Input()
+  title:string = " ";
 }

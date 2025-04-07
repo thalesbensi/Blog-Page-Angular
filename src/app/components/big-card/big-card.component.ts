@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-big-card',
@@ -11,15 +11,12 @@ export class BigCardComponent {
   date: Date = new Date()
   formattedDate: string = this.date.toDateString()
 
-  title:string = this.getCardTitle()
-  description:string = this.getCardDescription()
+  @Input()
+  photoCover:string =" ";
 
+  @Input()
+  title:string = " ";
+  @Input()
+  description:string = " ";
 
-  getCardTitle(): string{
-    return "Exploração de design para candidatar-se a vaga de Desenvolvedor Front-end"
-  }
-
-  getCardDescription(): string{
-    return "Marcos já trabalhou em projetos, mas frequentemente faz exploração de design. Ele pode se candidatar a uma vaga como Desenvolvedor Front-end"
-  }
 }
