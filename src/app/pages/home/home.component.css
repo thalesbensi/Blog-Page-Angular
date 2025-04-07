@@ -1,0 +1,9 @@
+#news-section{
+    display: flex;
+    flex-direction: row;
+}
+
+#small-section{
+    display: flex;
+    flex-direction: column;
+}

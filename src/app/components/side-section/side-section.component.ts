@@ -8,4 +8,15 @@ import { Component } from '@angular/core';
 })
 export class SideSectionComponent {
 
+  date: Date = new Date()
+  formattedDate: string = this.date.toDateString()
+
+  title:string = this.getCardTitle()
+  
+  getCardTitle(): string{
+    return "Novas tendências de linguagens para desenvolvimento Back-End"
+
+    
+  }
+
 }
