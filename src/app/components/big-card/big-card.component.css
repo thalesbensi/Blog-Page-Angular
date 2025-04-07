@@ -1,14 +1,17 @@
 #container__big-card{
-    width: 50%;
     width: 830px;
     display:flex;
     flex-direction: column;
     padding: 3.125rem 3.2rem 2rem 4rem ;
-    margin-left: 2rem;
+    margin-left: 3.05rem;
+    margin-right: 3.05rem;
+    margin-top: 20px;
 }
 
 #image-section {
-    height: 500px;
+    height: 550px;
+    width: 95%;
+    min-width: 600px;
     display: flex;
     justify-content: center;
     border: 1px solid #222222;
@@ -24,6 +27,10 @@
     padding: 0px 1rem 0px 0px;
     line-height: 2.3rem;
     margin-bottom: 1rem;
+}
+
+#big-card-title a {
+    text-decoration: none;
 }
 
 #description-section{
