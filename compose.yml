@@ -1,0 +1,8 @@
+services:
+  apache:
+    image: httpd:latest
+    container_name: my-front-page
+    ports:
+      - "80:80"
+    volumes:
+      - ./Blog-Page-Angular:/usr/local/apache2/htdocs
